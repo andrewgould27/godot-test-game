@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c46tiew2ax4s1"]
+
+[ext_resource type="PackedScene" uid="uid://bj640fjxus6oj" path="res://UI/invetory_bar.tscn" id="1_s6yv4"]
+
+[node name="UserInterface" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="InventoryBar" parent="." instance=ExtResource("1_s6yv4")]
+layout_mode = 2
